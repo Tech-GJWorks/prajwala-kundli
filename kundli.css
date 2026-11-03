@@ -64,3 +64,14 @@ details.pd th,details.pd td{padding:5px 10px}
 @media(max-width:700px){
   .chartgrid{grid-template-columns:1fr}
 }
+
+/* dasha readings, past checklist */
+.adcard{background:#fff;border-radius:12px;box-shadow:var(--shadow);padding:16px 20px;margin:14px 0}
+.adcard.now{background:var(--orange-soft)}
+.adhead{font-family:var(--sans);font-size:15px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;margin-bottom:8px}
+.adcard p{margin-bottom:8px}
+.adcard .tw{margin:10px 0 0}
+p.small,.small{font-family:var(--sans);font-size:13.5px;color:var(--ink-2)}
+ul.ev{font-family:var(--sans);font-size:14.5px;padding-left:20px;margin:4px 0 10px}
+ul.ev li{margin-bottom:4px}
+.box{display:inline-block;width:16px;height:16px;border:1.5px solid var(--muted);border-radius:4px}
